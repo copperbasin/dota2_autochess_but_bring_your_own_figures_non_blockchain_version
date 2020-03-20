@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "fy": "github:hu2prod/fy",
-    "ws": "^2.3.1"
+    "ws": "^3.3.1"
   }
 }
