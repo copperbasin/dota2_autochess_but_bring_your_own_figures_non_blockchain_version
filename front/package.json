@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "iced ./server.coffee",
+    "dev": "./loop.sh ./server.coffee --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fy": "github:hu2prod/fy",
+    "iced-coffee-script": "^108.0.14",
+    "webcom": "github:hu2prod/webcom",
+    "webcom-client-plugin-base": "github:hu2prod/webcom-client-plugin-base",
+    "webcom-engine-vendor": "github:hu2prod/webcom-engine-vendor"
+  }
+}

@@ -1,0 +1,39 @@
+.start_button {
+  width : 200px;
+  height: 50px;
+  font-size: 26px;
+  background-color: #ff1;
+  color: #111;
+  font-family: HypatiaSansPro-Semibold;
+  border: 5px #555 solid;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.start_button:hover {
+  border: 5px #111 solid;
+  background-color: #FFFF60;
+  color: #000;
+}
+
+button:disabled, button[disabled], button:disabled:hover, button[disabled]:hover {
+  background-color: #999;
+  border: 0;
+}
+
+.nav_button {
+  background-color: #ff1;
+  font-size: 26px;
+  font-family: HypatiaSansPro-Semibold;
+}
+
+.back_button {
+  position: absolute; /* HACK */
+  width   : 50px;
+  height  : 50px;
+  opacity : 0.5;
+  transition: 0.3s;
+}
+.back_button:hover {
+  opacity : 0.9;
+}

@@ -1,0 +1,11 @@
+.lvl_badge {
+  border: 2px solid #aaa;
+  width: 27px;
+  heigth: 27px;
+  border-radius: 15px;
+  font-size: 18px;
+  padding-top: 4px;
+  color: #FE0;
+  font-weight: bold;
+  background: #333;
+}

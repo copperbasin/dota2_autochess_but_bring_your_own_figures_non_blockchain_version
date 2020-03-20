@@ -1,0 +1,93 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow:hidden;
+  font-family: HypatiaSansPro-Regular;
+}
+
+#mount_point {
+  height: 100%;
+}
+
+#wrap {
+  height: 100%;
+}
+
+#bg1, #bg2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  z-index: -1;
+}
+
+.reset_font {
+  font-size: 16px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center_pad {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pad_top {
+  padding-top: 10px;
+}
+
+.background_pad {
+  margin-left : auto;
+  margin-right: auto;
+  padding: 20px;
+  width : 1100px;
+  border-radius: 2px;
+  background: #eee;
+  font-family: HypatiaSansPro-Regular;
+  font-size: 26px;
+}
+
+.h_layout_table > tbody > tr > td {
+  vertical-align: top;
+}
+
+@font-face {
+  font-family: HypatiaSansPro-Regular;
+  src: url("font/HypatiaSansPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HypatiaSansPro-Semibold;
+  src: url("font/HypatiaSansPro-Semibold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HypatiaSansPro-Bold;
+  src: url("font/HypatiaSansPro-Bold.otf") format("opentype");
+}
+
+/* RE-style not default components */
+.tab button {
+  height: 40px;
+}
+input[type=number] {
+  font-family: HypatiaSansPro-Regular;
+  font-size: 16px;
+  width : 45px;
+  border: 1px solid #eee;
+  padding-left: 4px;
+}
+/* no selection double click https://stackoverflow.com/questions/880512/prevent-text-selection-after-double-click */
+canvas {
+  user-select: none; /* standard syntax */
+  -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+  -moz-user-select: none; /* mozilla browsers */
+  -khtml-user-select: none; /* webkit (konqueror) browsers */
+  -ms-user-select: none; /* IE10+ */
+}

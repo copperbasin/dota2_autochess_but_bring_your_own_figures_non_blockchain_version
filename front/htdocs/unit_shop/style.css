@@ -1,0 +1,32 @@
+.shop_table {
+  font-size: 16px;
+}
+
+.shop_table .check_pass {
+  background: #ff0;
+}
+
+.shop_table .check_cant_afford {
+  background: #ccc;
+}
+
+.scroll_container {
+  overflow: auto;
+}
+
+.shop_table input[type=number] {
+  padding-top: 2px;
+  margin-top: -2px;
+  height: 20px;
+}
+
+.s_icon {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+
+.shop_filter_title {
+  text-align: left;
+  width:50px;
+}
