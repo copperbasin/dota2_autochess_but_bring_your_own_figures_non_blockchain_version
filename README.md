@@ -21,11 +21,13 @@ copy this repo
 start front in first terminal
 
     cd front
+    npm ci
     ./server.coffee
 
 start back in second terminal
 
     cd back
+    npm ci
     ./server.coffee
 
 # How to play
